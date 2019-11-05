@@ -20,5 +20,5 @@ def assign_rooms(speakers)
   spkr_with_room
 end
 
-def printer()
+def printer
 end
