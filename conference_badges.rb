@@ -27,5 +27,6 @@ def printer(attendees)
   while counter < attendees.length 
     puts badge[counter]
     puts rooms[counter]
+    counter += 1
   end
 end
