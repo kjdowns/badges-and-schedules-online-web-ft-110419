@@ -20,5 +20,7 @@ def assign_rooms(speakers)
   spkr_with_room
 end
 
-def printer
+def printer(array)
+  puts batch_badge_creator(array)
+  puts assign_rooms(array)
 end
