@@ -20,7 +20,12 @@ def assign_rooms(speakers)
   spkr_with_room
 end
 
-def printer(array)
-  puts batch_badge_creator(array)
-  puts assign_rooms(array)
+def printer(attendees)
+  badge = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
+  counter = 0 
+  while counter < attendees.length 
+    puts badge[counter]
+    puts rooms[counter]
+  end
 end
